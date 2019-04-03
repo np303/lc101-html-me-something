@@ -53,35 +53,16 @@ body {
 	}
 	
 	ul {
-	text-align: center;
+	text-align: left;
 	color: #FFF;
 	list-style-position: inside;
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
+	margin: auto;
+	padding-left: 45%;
 	}
 	
-	.image1 {
-	background-image: url("https://github.com/np303/lc101-html-me-something/blob/master/images/road1.jpg?raw=true");
-	width: 100px;
-	height: 300px;
-	/* display: block; */
-	margin-left: auto;
-	margin-right: auto;
-	width: 75%;
-	
-	}	
-	
-	.image2 {
-	background-image: url("https://github.com/np303/lc101-html-me-something/blob/master/images/road2.jpg?raw=true");
-	width: 500px;
-	height: 300px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 75%;
-		}
-	
-  
+	  
   .caption {
 	display: block;
 	font-family: 'Playfair Display', serif;
@@ -94,6 +75,8 @@ body {
   
   .content {
 	padding: 40px;
+	text-align: center;
+	margin-left: auto;
   }
 	
 	.center {
