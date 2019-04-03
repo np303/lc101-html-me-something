@@ -15,20 +15,20 @@ body {
 	padding-top: 100px;
 	width: 100%;
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-	font-style: italic;
+	font-family: 'Alegreya';font-size: 42px;
+	/* font-style: italic; */
 	
   }
   
   h2 {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-	color: rgba(255, 255, 255, 0.5);
+	color: rgb(255, 255, 255);
 	font-weight: 100;
 	font-size: 22px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Alegreya';font-size: 22px;
 	font-style: italic;
 	line-height: 24px;
-	padding-bottom: 30px;
+	padding-top: 30px;
+	/* padding-bottom: 30px; */
 	width: 100%;
 	text-align: center;
 	
@@ -39,16 +39,16 @@ body {
 		padding-top: 100px;
 		width: 100%;
 		text-align: center;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Alegreya';font-size: 22px;
 		font-style: italic;
 	}	
 	
 	p {
 	color: AliceBlue;
-	line-height: 1.3em;
+	/* line-height: 1.3em; */
 	text-align: center;
 	width: 100%;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Alegreya';font-size: 22px;
 	font-style: italic;
 	}
 	
@@ -56,17 +56,17 @@ body {
 	text-align: left;
 	color: #FFF;
 	list-style-position: inside;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Alegreya';font-size: 22px;
 	font-style: italic;
 	margin: auto;
 	padding-left: 45%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 	}
 	
 	  
   .caption {
 	display: block;
-	font-family: 'Playfair Display', serif;
-	font-size: 20px;
+	font-family: 'Alegreya';font-size: 22px;
 	font-style: italic;
 	text-align: center;
 	top: 90%;
