@@ -34,18 +34,17 @@ body {
 	
   }
   h3 {
-		color: #FFF;
-		font-size: 20px;
-		padding-top: 100px;
-		width: 100%;
-		text-align: center;
-		font-family: 'Alegreya';font-size: 22px;
-		font-style: italic;
+	color: #FFF;
+	font-size: 20px;
+	padding-top: 100px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Alegreya';font-size: 22px;
+	font-style: italic;
 	}	
 	
 	p {
 	color: AliceBlue;
-	/* line-height: 1.3em; */
 	text-align: center;
 	width: 100%;
 	font-family: 'Alegreya';font-size: 22px;
@@ -62,8 +61,7 @@ body {
 	padding-left: 45%;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 	}
-	
-	  
+		  
   .caption {
 	display: block;
 	font-family: 'Alegreya';font-size: 22px;
