@@ -2,9 +2,9 @@ body {
 	/* Old browsers */
 	background: #141E30;
 	/* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-linear-gradient(-46544565deg, #35577D, #141E30);
+	background: -webkit-linear-gradient(-45deg, rgb(26, 146, 116), #141E30);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background: linear-gradient(-45deg, rgb(15, 39, 66), rgb(86, 127, 202));
+	background: linear-gradient(-45deg, rgb(24, 161, 116), rgb(4, 16, 37));
 	margin: 0;
 	padding: 0;
   }
@@ -15,6 +15,9 @@ body {
 	padding-top: 100px;
 	width: 100%;
 	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	
   }
   
   h2 {
@@ -22,34 +25,49 @@ body {
 	color: rgba(255, 255, 255, 0.5);
 	font-weight: 100;
 	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
 	line-height: 24px;
 	padding-bottom: 30px;
 	width: 100%;
 	text-align: center;
+	
   }
   h3 {
 		color: #FFF;
 		font-size: 20px;
 		padding-top: 100px;
 		width: 100%;
-		text-align: left;
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		font-style: italic;
 	}	
-  p {
+	
+	p {
 	color: AliceBlue;
 	line-height: 1.3em;
 	text-align: center;
 	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
 	}
 	
 	ul {
-	text-align: left;
+	text-align: center;
 	color: #FFF;
+	list-style-position: inside;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
 	}
 	
 	.image1 {
 	background-image: url("https://github.com/np303/lc101-html-me-something/blob/master/images/road1.jpg?raw=true");
-	width: 500px;
+	width: 100px;
 	height: 300px;
+	/* display: block; */
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
 	
 	}	
 	
@@ -57,6 +75,10 @@ body {
 	background-image: url("https://github.com/np303/lc101-html-me-something/blob/master/images/road2.jpg?raw=true");
 	width: 500px;
 	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
 		}
 	
   
@@ -65,7 +87,7 @@ body {
 	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 	font-style: italic;
-	text-align: left;
+	text-align: center;
 	top: 90%;
 	position: relative;
   }
@@ -73,7 +95,13 @@ body {
   .content {
 	padding: 40px;
   }
-  
+	
+	.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;	
+	}
     
   
   
